@@ -5,11 +5,13 @@ citEntry(entry="article",
 	author = personList( person("Stefan", "Graw"),
                          person("Rosalyn", "Henn"),
                          person(c("Jeffrey", "A"), "Thompson"),
-                         person(c("Devin", "C"), "Koestler"),
+                         person(c("Devin", "C"), "Koestler")),
     journal = "BMC Bioinformatics",
     year = "2019",
     doi = "10.1186/s12859-019-2804-7",
     url = "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2804-7",
     textVersion = 
-    "Stefan Graw, Rosalyn Henn, Jeffrey A. Thompson, and Devin C. Koestler. pwrEWAS: a user-friendly tool for comprehensive power estimation for epigenome wide association studies (EWAS). BMC Bioinformatics 2019, doi: 10.1186/s12859-019-2804-7"
+    paste("Stefan Graw, Rosalyn Henn, Jeffrey A. Thompson, and Devin C. Koestler.",
+	"pwrEWAS: a user-friendly tool for comprehensive power estimation for epigenome wide association studies (EWAS).",
+	"BMC Bioinformatics 2019, doi: 10.1186/s12859-019-2804-7")
 )
