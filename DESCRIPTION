@@ -1,6 +1,6 @@
 Package: pwrEWAS.data
 Title: pwrEWAS.data: Reference data accompanying pwrEWAS 
-Version: 1.15.0
+Version: 1.15.1
 Description: This package provides reference data required for pwrEWAS. 
   pwrEWAS is a user-friendly tool to estimate power in EWAS as a function 
   of sample and effect size for two-group comparisons of DNAm 
@@ -19,3 +19,4 @@ biocViews: ExperimentHub, MethylationArrayData, MicroarrayData, TissueMicroarray
 Encoding: UTF-8
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
+PackageStatus: Deprecated
